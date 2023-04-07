@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "strict": true
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
