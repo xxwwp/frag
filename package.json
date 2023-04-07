@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "tools",
   "private": "true",
+  "type": "module",
   "scripts": {
     "commit": "cz",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +12,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "ts-node": "^10.9.1"
   },
   "config": {
     "commitizen": {
